@@ -1,13 +1,13 @@
 def create_an_empty_array
-  array = []
+  star_wars_characters = []
 end
 
 def create_an_array
- array = ["Han", "Luke", "Leia", "Chewie"]
+ star_wars_characters = ["Han", "Luke", "Leia", "Chewie"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push("C-3PO")
+  star_wars_characters.push("C-3PO")
 end
 
 def add_element_to_start_of_array(array, element)
