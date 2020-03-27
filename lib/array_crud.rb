@@ -6,10 +6,8 @@ def create_an_array
  star_wars_characters = ["Han", "Luke", "Leia", "Chewie"]
 end
 
-array = star_wars_characters = ["Han", "Luke", "Leia", "Chewie"]
-
 def add_element_to_end_of_array(array, element)
- puts star_wars_characters.push("C-3PO")
+  array << "element"
 end
 
 def add_element_to_start_of_array(array, element)
