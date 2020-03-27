@@ -6,6 +6,8 @@ def create_an_array
  star_wars_characters = ["Han", "Luke", "Leia", "Chewie"]
 end
 
+array = star_wars_characters = ["Han", "Luke", "Leia", "Chewie"]
+
 def add_element_to_end_of_array(array, element)
   star_wars_characters.push("C-3PO")
 end
