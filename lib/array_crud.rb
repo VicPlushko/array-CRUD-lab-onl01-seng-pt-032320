@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push("element")
+  star_wars_characters.push "C-3PO"
 end
 
 def add_element_to_start_of_array(array, element)
